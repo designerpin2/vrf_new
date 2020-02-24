@@ -1,277 +1,329 @@
 <!DOCTYPE html>
 <html lang="en">
-	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+
 <head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-		<title>Charity</title>
-		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-		<!-- google fonts -->
-		<link href="https://fonts.googleapis.com/css?family=Lato:400,300italic,300,700%7CPlayfair+Display:400,700italic%7CRoboto:300%7CMontserrat:400,700%7COpen+Sans:400,300%7CLibre+Baskerville:400,400italic" rel='stylesheet' type='text/css'>
-		<!-- Bootstrap -->
-		<link href="assets/css/bootstrap.min.css" rel="stylesheet">
-		<link href="assets/css/bootstrap-theme.css" rel="stylesheet">
-		<link href="assets/css/font-awesome.min.css" rel="stylesheet">
-		<link href="assets/revolution-slider/css/settings.css" rel="stylesheet">
-		<link href="assets/css/global.css" rel="stylesheet">
-		<link href="assets/css/style.css" rel="stylesheet">
-		<link href="assets/css/responsive.css" rel="stylesheet">
-		<link href="assets/css/skin.css" rel="stylesheet">
-		<style>
-			.contact-form .form-group.error .form-control, .contact-form .form-group.error label, .contact-form .error .form-control {
-border-color: #ff0000;
-}
-#success{
-	display:none;
-	position: absolute;
-top: -48px;
-left: 0;
-}
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<title>Charity</title>
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+	<!-- google fonts -->
+	<link
+		href="https://fonts.googleapis.com/css?family=Lato:400,300italic,300,700%7CPlayfair+Display:400,700italic%7CRoboto:300%7CMontserrat:400,700%7COpen+Sans:400,300%7CLibre+Baskerville:400,400italic"
+		rel='stylesheet' type='text/css'>
+	<!-- Bootstrap -->
+	<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+	<link href="assets/css/bootstrap-theme.css" rel="stylesheet">
+	<link href="assets/css/font-awesome.min.css" rel="stylesheet">
+	<link href="assets/revolution-slider/css/settings.css" rel="stylesheet">
+	<link href="assets/css/global.css" rel="stylesheet">
+	<link href="assets/css/style.css" rel="stylesheet">
+	<link href="assets/css/responsive.css" rel="stylesheet">
+	<link href="assets/css/skin.css" rel="stylesheet">
+	<style>
+		.contact-form .form-group.error .form-control,
+		.contact-form .form-group.error label,
+		.contact-form .error .form-control {
+			border-color: #ff0000;
+		}
 
-		</style>
+		#success {
+			display: none;
+			position: absolute;
+			top: -48px;
+			left: 0;
+		}
+	</style>
 
-	</head>
-	<body>
+</head>
 
-		<div id="wrapper">
-			<!--Header Section Start Here -->
-			<header id="header">
+<body>
+
+	<div id="wrapper">
+		<!--Header Section Start Here -->
+		<header id="header">
+			<div class="container">
+				<div class="row primary-header">
+					<a href="index.html" class="col-xs-12 col-sm-2" title="Imagine AI Innovation"><img
+							src="assets/img/vrf_logo.png" alt="Charity" style="max-width: 30%;"></a>
+					<div class="social-links col-xs-12 col-sm-10">
+						<a href="#" class="btn btn-default btn-volunteer">DONATE</a>
+						<ul class="social-icons hidden-xs">
+							<li>
+								<a href="https://facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a>
+							</li>
+							<li>
+								<a href="https://instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a>
+							</li>
+							<li>
+								<a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a>
+							</li>
+							<li>
+								<a href="http://linkedin.com/" target="_blank"><i class="fa fa-linkedin"></i></a>
+							</li>
+
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="navbar navbar-default" role="navigation">
 				<div class="container">
-					<div class="row primary-header">
-						<a href="index.html" class="col-xs-12 col-sm-2" title="Imagine AI Innovation"><img
-								src="assets/img/vrf_logo.png" alt="Charity" style="max-width: 70%;"></a>
-						<div class="social-links col-xs-12 col-sm-10">
-							<a href="#" class="btn btn-default btn-volunteer">DONATE</a>
-							<ul class="social-icons hidden-xs">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse"
+							data-target="#bs-example-navbar-collapse-1">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+					</div>
+
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<nav>
+							<ul class="nav navbar-nav">
 								<li>
-									<a href="https://facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a>
+									<a href="index.html" class="submenu-icon">Home</a>
 								</li>
 								<li>
-									<a href="https://instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a>
+									<a href="javascript:;" data-toggle="dropdown" class="submenu-icon">About us <span
+											class="glyphicon glyphicon-chevron-down"></span> <span
+											class="glyphicon glyphicon-chevron-up"></span> </a>
+									<!-- Drop Down  -->
+
+									<div class="dropdown-menu">
+										<ul>
+											<li>
+												<a href="vittiai.html">Vitti AI</a>
+											</li>
+											<li>
+												<a href="vrf.html">Vitti Foundation</a>
+											</li>
+										</ul>
+									</div>
 								</li>
 								<li>
-									<a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a>
+									<a href="#" class="submenu-icon">Project</a>
 								</li>
 								<li>
-									<a href="http://dribble.com/" target="_blank"><i class="fa fa-linkedin"></i></a>
+									<a href="javascript:;" data-toggle="dropdown" class="submenu-icon">Courses<span
+											class="glyphicon glyphicon-chevron-down"></span> <span
+											class="glyphicon glyphicon-chevron-up"></span> </a>
+
+									<div class="dropdown-menu">
+										<ul>
+											<li>
+												<a href="da.html">Data Analytics</a>
+											</li>
+											<li>
+												<a href="ml.html">Machine Learning</a>
+											</li>
+											<li>
+												<a href="dl.html">Deep Learning</a>
+											</li>
+										</ul>
+									</div>
 								</li>
-	
+
+								<li>
+									<a href="event.html" class="submenu-icon">Events </a>
+								</li>
+								<li>
+									<a href="career.html" class="submenu-icon">Career </a>
+								</li>
+								<li>
+									<a href="contact-us.html" class="submenu-icon">Contact us </a>
+								</li>
 							</ul>
-						</div>
-					</div>
-				</div>
-				<div class="navbar navbar-default" role="navigation">
-					<div class="container">
-						<!-- Brand and toggle get grouped for better mobile display -->
-						<div class="navbar-header">
-							<button type="button" class="navbar-toggle" data-toggle="collapse"
-								data-target="#bs-example-navbar-collapse-1">
-								<span class="sr-only">Toggle navigation</span>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-							</button>
-						</div>
-	
-						<!-- Collect the nav links, forms, and other content for toggling -->
-						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-							<nav>
-								<ul class="nav navbar-nav">
-									<li>
-										<a href="index.html" class="submenu-icon">Home</a>
-									</li>
-	
-									<li>
-										<a href="about.html" class="submenu-icon">About us </a>
-									</li>
-									<li>
-										<a href="#" class="submenu-icon">AI Exchange </a>
-									</li>
-	
-									<li>
-										<a href="#" class="submenu-icon">Blog</a>
-									</li>
-	
-									<li>
-										<a href="event.html" class="submenu-icon">Events </a>
-									</li>
-	
-									<li>
-										<a href="contact-us.html" class="submenu-icon">Contact us </a>
-									</li>
-								</ul>
-							</nav>
-	
-	
-						</div><!-- /.navbar-collapse -->
-					</div><!-- /.container-fluid -->
-				</div>
-	
-			</header>
+						</nav>
+					</div><!-- /.navbar-collapse -->
+				</div><!-- /.container-fluid -->
+			</div>
+		</header>
 
-			<!-- site content -->
-			<div id="main">
-				<!--Breadcrumb Section Start Here-->
-				<div class="breadcrumb-section">
-					<div class="container">
-						<div class="row">
-							<div class="col-xs-12">
-								<h1>Contact Us</h1>
-								<ul class="breadcrumb">
-									<li>
-										<a href="index.html">Home</a>
-									</li>
-									<li class="active">
-										Contact Us
-									</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!--Breadcrumb Section End Here-->
-				<div class="content-wrapper container" id="page-info">
+		<!-- site content -->
+		<div id="main">
+			<!--Breadcrumb Section Start Here-->
+			<div class="breadcrumb-section">
+				<div class="container">
 					<div class="row">
-						<div class="col-xs-12 col-sm-6 contact-form">
-							<div class="col-xs-12" id="success"></div>
-							<h2>Send us Message</h2>
-							<form role="form" action="contact.php" method="get" autocomplete="off">
-								<div class="row">
-									<div class="form-group col-xs-12 col-sm-6">
-										<label for="name">Name<span>*</span></label>
-										<input type="text" class="form-control" id="name" required>
-									</div>
-									<div class="form-group col-xs-12 col-sm-6">
-										<label for="email">Email<span>*</span></label>
-										<input type="email" class="form-control" id="email" required>
-									</div>
-								</div>
-								<div class="form-group">
-									<label for="sub">Subject<span>*</span></label>
-									<input type="text" class="form-control" id="sub" required>
-								</div>
-								<div class="form-group">
-									<label for="message">Message</label>
-									<textarea class="form-control" id="message"></textarea>
-								</div>
-
-								<button type="button" class="btn bg-primary" id="submit">
-									Submit
-								</button>
-							</form>
-						</div>
-						<div class="col-xs-12 col-sm-5 col-sm-offset-1 contact-address">
-							<h2>Get in touch</h2>
-							<address>
-								<span> <strong>Address:</strong> <span>Vitti House
-										<br>
-										17A/41, 2nd Floor, Karol Bagh<br/>New Delhi - 110005</span> </span>
-								<span> <strong>E-Mail :</strong> <span><a href="mailto:contact@vitti.org">contact@vitti.org</span></a></span> </span>
-								<span> <strong>Telephone: </strong> <span><a href="tel:+911141417742"> 011-41417742 (9:30 AM to 6:30 PM)</a></span> </span>
-								<span> <strong>Mobile:</strong> <span><a href="tel:+919717399927">97173 99927 (9:30 AM to 6:30 PM)</a></span> </span>
-							</address>
+						<div class="col-xs-12">
+							<h1>Contact Us</h1>
+							<ul class="breadcrumb">
+								<li>
+									<a href="index.html">Home</a>
+								</li>
+								<li class="active">
+									Contact Us
+								</li>
+							</ul>
 						</div>
 					</div>
 				</div>
 			</div>
-			<!-- site content ends -->
+			<!--Breadcrumb Section End Here-->
+			<div class="content-wrapper container" id="page-info">
+				<div class="row">
+					<div class="col-xs-12 col-sm-6 contact-form">
+						<div class="col-xs-12" id="success"></div>
+						<h2>Send us Message</h2>
+						<form role="form" action="contact.php" method="get" autocomplete="off">
+							<div class="row">
+								<div class="form-group col-xs-12 col-sm-6">
+									<label for="name">Name<span>*</span></label>
+									<input type="text" class="form-control" id="name" required>
+								</div>
+								<div class="form-group col-xs-12 col-sm-6">
+									<label for="email">Email<span>*</span></label>
+									<input type="email" class="form-control" id="email" required>
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="sub">Subject<span>*</span></label>
+								<input type="text" class="form-control" id="sub" required>
+							</div>
+							<div class="form-group">
+								<label for="message">Message</label>
+								<textarea class="form-control" id="message"></textarea>
+							</div>
 
-		
-			<!--Footer Section Start Here -->
-			<footer id="footer">
+							<button type="button" class="btn bg-primary" id="submit">
+								Submit
+							</button>
+						</form>
+					</div>
+					<div class="col-xs-12 col-sm-5 col-sm-offset-1 contact-address">
+						<h2>Get in touch</h2>
+						<address>
+							<span> <strong>Address:</strong> <span>Vitti House
+									<br>
+									17A/41, 2nd Floor, Karol Bagh<br />New Delhi - 110005</span> </span>
+							<span> <strong>E-Mail :</strong> <span><a
+										href="mailto:contact@vitti.org">contact@vitti.org</span></a></span> </span>
+							<span> <strong>Telephone: </strong> <span><a href="tel:+911141417742"> 011-41417742 (9:30 AM
+										to 6:30 PM)</a></span> </span>
+							<span> <strong>Mobile:</strong> <span><a href="tel:+919717399927">97173 99927 (9:30 AM to
+										6:30 PM)</a></span> </span>
+						</address>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- site content ends -->
+
+
+		<!--Footer Section Start Here -->
+		<footer id="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 col-sm-4">
+						<div class="footer-logo">
+							<a href="index.html" title="Welcome to Charity"><img src="assets/img/logo.png"
+									alt="Charity"></a>
+						</div>
+						<p>
+							It is a fundraising association that works globally to provide support in education via
+							charity. Their members have spread worldwide to ensure that fundraising amount to delivering
+							at the right place and for the right purposes
+						</p>
+						<address>
+							<span> <i class="fa fa-home"></i> <span>A-105, Sector-82, Agra, 282001, India</span> </span>
+							<span> <i class="fa fa-phone-square"></i> <span>+1 123 456 7890</span> </span>
+							<span> <i class="fa fa-envelope"></i> <span><a
+										href="http://theemon.com/cdn-cgi/l/email-protection#45262a2b3124263105262d24372c313c6b262a28"><span
+											class="__cf_email__"
+											data-cfemail="7f1c10110b1e1c0b3f1c171e0d160b06511c1012">[email&#160;protected]</span></a></span>
+							</span>
+						</address>
+
+					</div>
+					<div class="col-xs-12 col-sm-4 twitter-update">
+						<h6>Twitter Feed</h6>
+						<p>
+							<a href="#"> <span class="charity">@charity</span> We are a charity trust that dedicatedly
+								work for several countries around the globe. Twitter Alerts will provide your some
+								critical information about those people that need help of yours. <span
+									class="comment-time">2 hours ago</span> </a>
+						</p>
+						<p>
+							<a href="#"> <span class="charity">@charity</span> Use Twitter as the best conversation
+								platform to make the people aware of the worst situation that many of Africans are
+								facing. Tweet for them and raise fund in the best possible way. <span
+									class="comment-time">2 hours ago</span> </a>
+						</p>
+					</div>
+					<div class="col-xs-12 col-sm-4">
+						<h6>Newsletter Signup</h6>
+						<p>
+
+							Sign up your account to check our newsletter that will undoubtedly help you acquainted with
+							current scenario.
+						</p>
+						<form role="form" class="sign-up">
+
+							<div class="input-group">
+								<input class="form-control" type="email" placeholder="Email">
+								<div class="input-group-addon">
+									<input type="submit" class="btn btn-theme" value="Submit">
+								</div>
+							</div>
+
+						</form>
+
+						<h6>Follow us</h6>
+						<ul class="social-icons">
+							<li>
+								<a href="https://facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a>
+							</li>
+							<li>
+								<a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a>
+							</li>
+							<li>
+								<a href="http://dribble.com/" target="_blank"><i class="fa fa-dribbble"></i></a>
+							</li>
+							<li>
+								<a href="https://pinterest.com/" target="_blank"><i class="fa fa-pinterest"></i></a>
+							</li>
+							<li>
+								<a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus"></i></a>
+							</li>
+							<li>
+								<a href="https://instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="copyright">
 				<div class="container">
 					<div class="row">
-						<div class="col-xs-12 col-sm-4">
-							<div class="footer-logo">
-								<a href="index.html" title="Welcome to Charity"><img src="assets/img/logo.png" alt="Charity"></a>
-							</div>
-							<p>
-							It is a fundraising association that works globally to provide support in education via charity. Their members have spread worldwide to ensure that fundraising amount to delivering at the right place and for the right purposes
-							</p>
-							<address>
-								<span> <i class="fa fa-home"></i> <span>A-105, Sector-82, Agra, 282001, India</span> </span>
-								<span> <i class="fa fa-phone-square"></i> <span>+1 123 456 7890</span> </span>
-								<span> <i class="fa fa-envelope"></i> <span><a href="http://theemon.com/cdn-cgi/l/email-protection#45262a2b3124263105262d24372c313c6b262a28"><span class="__cf_email__" data-cfemail="7f1c10110b1e1c0b3f1c171e0d160b06511c1012">[email&#160;protected]</span></a></span> </span>
-							</address>
-
-						</div>
-						<div class="col-xs-12 col-sm-4 twitter-update">
-							<h6>Twitter Feed</h6>
-							<p>
-								<a href="#"> <span class="charity">@charity</span> We are a charity trust that dedicatedly work for several countries around the globe.  Twitter Alerts will provide your some critical information about those people that need help of yours. <span class="comment-time">2 hours ago</span> </a>
-							</p>
-							<p>
-								<a href="#"> <span class="charity">@charity</span> Use Twitter as the best conversation platform to make the people aware of the worst situation that many of Africans are facing. Tweet for them and raise fund in the best possible way. <span class="comment-time">2 hours ago</span> </a>
-							</p>
-						</div>
-						<div class="col-xs-12 col-sm-4">
-							<h6>Newsletter Signup</h6>
-							<p>
-								
-Sign up your account to check our newsletter that will undoubtedly help you acquainted with current scenario.
-							</p>
-							<form role="form" class="sign-up">
-
-								<div class="input-group">
-									<input class="form-control" type="email" placeholder="Email">
-									<div class="input-group-addon">
-										<input type="submit" class="btn btn-theme" value="Submit">
-									</div>
-								</div>
-
-							</form>
-
-							<h6>Follow us</h6>
-							<ul class="social-icons">
-								<li>
-									<a href="https://facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a>
-								</li>
-								<li>
-									<a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a>
-								</li>
-								<li>
-									<a href="http://dribble.com/" target="_blank"><i class="fa fa-dribbble"></i></a>
-								</li>
-								<li>
-									<a href="https://pinterest.com/" target="_blank"><i class="fa fa-pinterest"></i></a>
-								</li>
-								<li>
-									<a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus"></i></a>
-								</li>
-								<li>
-									<a href="https://instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a>
-								</li>
-							</ul>
+						<div class="col-xs-12">
+							<span> &copy; Copyright 2014, All Rights Reserved by Charity Theme.
+							</span>
 						</div>
 					</div>
 				</div>
-				<div class="copyright">
-					<div class="container">
-						<div class="row">
-							<div class="col-xs-12">
-								<span> &copy; Copyright 2014, All Rights Reserved by Charity Theme.
-									</span>
-							</div>
-						</div>
-					</div>
-				</div>
-			</footer>
-	<!--Footer Section End Here -->
-		</div>
-		<script data-cfasync="false" src="../../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="assets/js/jquery.min.js"></script>
-		<!-- Switcher Style Js -->
-		<script src="assets/js/style-switcher/assets/js/style.switcher.js"></script>
-		<script src="assets/js/jquery.cookie.js"></script>
-		<!-- Bootstrap Js--> 
-		<script src="assets/js/bootstrap.min.js"></script>
-		<script src="assets/js/jquery.easing.min.js"></script>
-		<!--Main Slider Js-->
-		<script src="assets/revolution-slider/js/jquery.themepunch.plugins.min.js"></script>
-		<script src="assets/revolution-slider/js/jquery.themepunch.revolution.js"></script>
-		<!--Main Slider Js End -->
-		<script src="assets/js/jquery.flexslider.js"></script>
-		<script src="assets/js/site.js"></script>
-	</body>
+			</div>
+		</footer>
+		<!--Footer Section End Here -->
+	</div>
+	<script data-cfasync="false" src="../../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+	<script src="assets/js/jquery.min.js"></script>
+	<!-- Switcher Style Js -->
+	<script src="assets/js/style-switcher/assets/js/style.switcher.js"></script>
+	<script src="assets/js/jquery.cookie.js"></script>
+	<!-- Bootstrap Js-->
+	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="assets/js/jquery.easing.min.js"></script>
+	<!--Main Slider Js-->
+	<script src="assets/revolution-slider/js/jquery.themepunch.plugins.min.js"></script>
+	<script src="assets/revolution-slider/js/jquery.themepunch.revolution.js"></script>
+	<!--Main Slider Js End -->
+	<script src="assets/js/jquery.flexslider.js"></script>
+	<script src="assets/js/site.js"></script>
+</body>
 
 <!-- Mirrored from theemon.com/c/charity/LivePreview/contact-us.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 15 Feb 2020 11:51:12 GMT -->
+
 </html>

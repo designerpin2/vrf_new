@@ -48,7 +48,8 @@ h1 strong, .h1 strong, h2 strong, .h2 strong, h3 strong, .h3 strong, h2 strong, 
 	border: 2px solid #007DB1;
 }
 .navbar-nav > li > .dropdown-menu, .navbar-nav .open .dropdown-menu {
-	background: #e8bf19;
+	background: #007DB1;
+	color: #fffffF;
 }
 .rounded
 {
@@ -61,4 +62,27 @@ img-circle
 .mtop
 {
 	margin-top: 30px;
+}
+.thead
+{
+	font-size: 20px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #007DB1;
+}
+.ttext
+{
+	margin-top: 19px;
+}
+.mbottom
+{
+	margin-bottom: 30px;
+	line-height: 26px;
+    color: #686868;
+}
+.vis
+{
+	font-weight: 800;
+    bottom: 10px;
+    position: relative;
 }

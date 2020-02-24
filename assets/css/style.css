@@ -160,7 +160,7 @@
 	display: block;
 }
 .article-list .items h3 {
-	margin-bottom: 25px;
+	margin-bottom:5px;
 	min-height: 38px;
 }
 .article-list .donation {
@@ -285,7 +285,7 @@
 	font-weight: 300;
 }
 .how-to-help .section-header {
-	margin: 55px 0 33px;
+	margin: 55px 0 5px;
 }
 .how-to-help .svg-shape svg {
 	width: 69px;
@@ -1466,6 +1466,37 @@ main-slider .tp-caption .btn.btn-default {
 }
 .helping-child .btn-theme:hover, .helping-child .btn-theme:focus {
 	color: #fff;
+}
+
+/* ai4all start */
+.ai4all {
+	background: url(../img/parallax-banner-03.jpg) center 0 no-repeat;
+	background-size: cover;
+	padding: 103px 0 127px;
+	margin-bottom: 60px;
+	background-attachment: fixed;
+}
+.ai4all .h1 {
+	font-size: 40px;
+	color: #fff;
+	margin-bottom: 29px;
+	font-weight: 300;
+}
+.ai4all .h1 small {
+	border-bottom: 0;
+}
+.ai4all p {
+	color: #fff;
+	margin-bottom: 46px;
+	padding-right: 69px
+}
+.ai4all .btn-theme {
+	color: #007DB1;
+	border: 2px solid #007DB1;
+}
+.ai4all .btn-theme:hover, .ai4all .btn-theme:focus {
+	color: #fff;
+	background-color: #007DB1;
 }
 /*our team*/
 .our-team .thumbnail {

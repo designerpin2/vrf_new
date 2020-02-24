@@ -225,6 +225,7 @@ input:focus,textarea:focus,.btn:focus,.zoom img{
 .img-thumb {
 	display: block;
 	overflow: hidden;
+	border-radius: 5px;
 }
 .img-thumb img {
 	display: block;
@@ -589,7 +590,7 @@ blockquote footer:before, .blockquote-reverse footer:after {
 .breadcrumb-section {
 	background: url(../img/breadcrumb-bg.jpg) center 37.3% no-repeat;
 	background-size: cover;
-	padding: 31px 0 42px;
+	padding: 31px 0 240px;
 /*	margin-bottom: 59px;*/
 }
 .breadcrumb-section h1 {
@@ -847,7 +848,7 @@ a.brand img {
 }
 
 .navbar-nav > li > .dropdown-menu > ul > li > a {
-	color: #26211d;
+	color: #bcf3ff;
 	font-weight: 300;
 	display: block;
 	padding: 9px 0;
