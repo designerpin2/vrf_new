@@ -63,6 +63,10 @@ img-circle
 {
 	margin-top: 30px;
 }
+.mtop70
+{
+	margin-top: 90px;
+}
 .thead
 {
 	font-size: 20px;
@@ -85,4 +89,17 @@ img-circle
 	font-weight: 800;
     bottom: 10px;
     position: relative;
+}
+.batch
+{
+	font-size: 15px;
+    text-align: center;
+    background: #007DB1;	
+    position: relative;
+    top: -15px;
+    padding: 10px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 800;
+    border-radius: 0px 5px 5px 0px;
 }
