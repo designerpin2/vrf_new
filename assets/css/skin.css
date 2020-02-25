@@ -103,3 +103,21 @@ img-circle
     font-weight: 800;
     border-radius: 0px 5px 5px 0px;
 }
+.runtext
+{
+	font-size: 16px;
+}
+.outcome
+{
+	background: #f50;
+    padding: 40px;
+    color: #fff;
+    font-weight: 800;
+    font-size: 18px;
+    border-radius: 5px;
+    position: fixed;
+}
+.mbottom
+{
+	margin-bottom: 10px;
+}

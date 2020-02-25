@@ -654,7 +654,6 @@ main-slider .tp-caption .btn.btn-default {
 .news-section .volunteer-reward {
 	background: #faf7f4;
 	padding: 20px;
-	margin-top: 107px;
 	text-align: left;
 }
 .news-section .section-header {
@@ -716,7 +715,7 @@ main-slider .tp-caption .btn.btn-default {
 	margin-bottom: 62px;
 }
 .news-section .get-involved {
-	font-size: 48px;
+	font-size: 32px;
 	line-height: 1.1;
 }
 /*
