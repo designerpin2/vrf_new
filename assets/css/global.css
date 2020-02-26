@@ -1231,11 +1231,11 @@ display: block;
 }
 .sign-up .form-control {
 	background: none;
-	border: 2px solid #595756;
+	border: 2px solid #101397;
 	border-right: 0;
 	height: 45px;
 	font-size: 14px;
-	color: #595756;
+	color: #fff;
 }
 .sign-up .form-control::-moz-placeholder {
 	color: #595756;
@@ -1271,7 +1271,7 @@ display: block;
 	font-size: 15px;
 	color: #575352;
 	text-align: center;
-	margin-top: 82px;
+	margin-top: 30px;
 	background: #2a2928;
 	padding: 21px 0;
 }
